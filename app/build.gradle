@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "23.0.3"
+    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.evolvexie.udacityappcollection"
         minSdkVersion 15
@@ -26,4 +26,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
+    compile 'com.github.GrenderG:Toasty:1.1.3'
 }
